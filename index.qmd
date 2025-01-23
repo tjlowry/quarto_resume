@@ -1,15 +1,14 @@
 ---
-title: "J. Hathaway"
+title: "Tyler Lowry"
 format:
   html:
-    toc: true
-    grid:
-      sidebar-width: 50px
-      body-width: 800px
-      margin-width: 200px
-      gutter-width: 1.5rem
+    toc: false
   pdf:
     pdf-engine: weasyprint
+    margin-top: 0.5in
+    margin-bottom: 0.5in
+    margin-left: 0.75in
+    margin-right: 0.75in
 css: cv.css
 execute:
   echo: false
@@ -18,11 +17,11 @@ format-links: [pdf]
 
 ```{python}
 #| tags: [parameters]
+email = 'tjlowry02@gmail.com'
+github = 'tjlowry'
+linkedin = 'tylerj-lowry'
+telephone = '480-297-6545'
 
-email = 'j@jhathaway.io'
-github = 'hathawayj'
-linkedin =  'hathawayj'
-telephone = '208.932.8306'
 ```
 
 ```{python}
@@ -31,11 +30,10 @@ from IPython.display import Markdown
 ```
 
 ____
-
 :::: {.columns}
 
 ::: {.column width="22%"}
-I want to email here is my `{python} Markdown(f'[{email}](mailto:{email})')`
+`{python} Markdown(f'[{email}](mailto:{email})')`
 :::
 
 ::: {.column width="1%"}
@@ -64,43 +62,57 @@ I want to email here is my `{python} Markdown(f'[{email}](mailto:{email})')`
 ::::
 
 ____
+## Education
 
+**Brigham Young University-Idaho** [Apr 2025]{.cvdate}  
+BS, Data Science - Accounting Minor – Machine Learning Certificate  
+Rexburg, ID  
+- GPA: 3.89
+- Member of Data Science Society
 
+## Skills
 
-::: {.print-only .contact-block}
-cynthia.huang@monash.edu
-:::
+**Advanced:**
+- R, Python, Pandas, Polars, SQL
+- Machine Learning, Demand Forecasting, TensorFlow, Scikit-Learn, Time Series
+- Tableau, Power BI
 
+**Competent:**
+- HTML, CSS, JavaScript, PHP, PySpark, C#
+- APIs, Data Pipelines, Database Managemet
+- Excel, VBA, Adobe Suite
 
-## EDUCATION
+## Work Experience
 
-**Doctor of Philosophy -- Econometrics and Business Statistics** <br> *Monash University* [*Aug 2021 --- Present*]{.cvdate}
+### Machine Learning Engineer Intern
+***PIC Business Systems*** [June 2023 – Present]{.cvdate}  
+San Antonio, TX
 
--   New principles and methods for complex data preparation and integration, with applications to official statistics, web-scrapped data and satellite raster images
--   Monash Data Futures Institute PhD Top-Up Scholarship (2021-2024)
--   Expected submission date: Nov 2024
+- Developed a 90-day sales forecasting ensembled model and an interactive dashboard for product performance, resulting in a 30% improvement in median forecast MAPE
+- Enhanced data quality by integrating external factors such as weather and date, using APIs and Pandas to create additional features for the model
+- Automated monthly forecasting and database updates by leveraging AWS Lambda and S3 Buckets, enabling easy access to forecasts and reducing manual efforts
 
-## WORK EXPERIENCE{style="page-break-before: always"}
+### TA/Tutor
+***BYU-Idaho*** [April 2024 – Present]{.cvdate}  
+Rexburg, ID
 
-### Data Scientist
+- Served as a teaching assistant for "Intro to Programming," "Data Wrangling and Visualization," "Data Science Programing," and "Math for the Real World"
+- Led group and one-on-one tutoring sessions focused on Python, R, Excel, and arithmetic
+- Provided general data science support at the Data Science Tutoring Lab, assisting students across various data science courses with Python, R, and other coursework-related questions
 
-***Freelance, Multiple Clients*** [Jan 2020 -- June 2021]{.cvdate}
+### Team Lead/Developer
+***BYU-Idaho McKay Maclab*** [Jan 2023 – Present]{.cvdate}  
+Rexburg, ID
 
-Providing data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:
+- Collaborated with team of 4 in full stack developments of Maclab and Library website and 3D printing queue for patron use, including TTL policies
+- Conducted interviews, reviewed resumes to screen candidates, and provided training to new employees
+- Facilitated weekly meetings to discuss goals, track task progress, and deliver short training sessions to the team
+- Designed interactive streamlit dashboards to track KPI performance, resulting in a 14% average improvement across all metrics
 
--   Data description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.
--   Development of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package.
+### Intern
+***George W. Lowry Inc.*** [Sept 2023 – Dec 2023]{.cvdate}  
+Salida, CA
 
-::: {.no-print}
-## PRESENTATIONS AND WORKSHOPS
-
--   Talk: [Misadventures with Reproducibility in R](https://github.com/cynthiahqy/rladies-2022-11) (30 Nov 2022, R Ladies Melbourne Meetup)
--   Talk: [Designing R Packages](https://github.com/cynthiahqy/design-r-magic_2022-10) (4 Oct 2022, Monash EBS Data Science Research Software Study Group)
--   Talk: [Quarto Websites as Research Compendiums](https://github.com/cynthiahqy/quarto-wiki-template) (16 Aug 2022, Monash EBS Data Science Research Software Study Group)
--   Workshop: [Writing academic papers with Rmarkdown and friends](https://www.cynthiahqy.com/posts/r-markdown-and-friends/) (9 Aug 2022, Monash University)
-:::
-
-::: {.print-only}
-## References
-Available upon request
-:::
+- Optimized SQL queries and database architecture, reducing report generation time from 2+ hours to 5 minutes through improved indexing and query restructuring
+- Identified and implemented an AWS EC2 instance, increasing computing power while lowering costs, reducing server crashes, and improving efficiency
+- Developed a CRM using a PHP framework, enhancing location data tracking and streamlining communication between salesmen and delivery drivers for improved logistics
