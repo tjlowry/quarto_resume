@@ -72,15 +72,9 @@ Rexburg, ID
 
 ## Skills
 
-**Advanced:**
-- R, Python, Pandas, Polars, SQL
-- Machine Learning, Demand Forecasting, TensorFlow, Scikit-Learn, Time Series
-- Tableau, Power BI
+**Advanced:** Software & Languages (R, Python, Pandas, Polars, SQL), Machine Learning (TensorFlow, Scikit-Learn, Time Series, Demand Forecasting), Data Visualization (Tableau, Power BI, ggplot)
 
-**Competent:**
-- HTML, CSS, JavaScript, PHP, PySpark, C#
-- APIs, Data Pipelines, Database Managemet, PySpark, 
-- Excel, VBA, Adobe Suite
+**Competent:** Web Development (HTML, CSS, JavaScript, PHP), Programming (C#, PySpark), Infrastructure (APIs, Data Pipelines, Database Management), Tools (Excel, VBA, Adobe Suite)
 
 ## Work Experience
 
