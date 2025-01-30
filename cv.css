@@ -3,127 +3,123 @@
 
 /* Base styles */
 html {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 11pt;
-  line-height: 1.3;
+    font-size: 10pt;
+    line-height: 1.2;
+    font-family: 'Public Sans', sans-serif;
 }
 
 /* Header and sections */
 h2 {
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-top: 0.8em;
-  margin-bottom: 0.3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 h3 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0.6em;
-  margin-bottom: 0.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
 }
 
 /* Lists */
 ul {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  padding-left: 1.2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    padding-left: 1em;
 }
 
 ul li {
-  margin-bottom: 0.2em;
-  line-height: 1.3;
+    margin-bottom: 0.1em;
+    line-height: 1.2;
 }
 
 /* Links */
 a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #36a7e9;
+    text-decoration: none;
+    font-weight: 700;
+    color: #36a7e9;
 }
 
 /* Dates */
 .cvdate {
-  float: right;
-  font-style: italic;
+    float: right;
+    font-style: italic;
 }
 
 /* Print-specific classes */
 .print-only {
-  display: none;
+    display: none;
 }
 
 .no-print {
-  display: none;
+    display: none;
 }
 
 /* Print styles */
 @media print {
-  @page {
-    size: letter portrait;
-    margin: 12mm;
-    counter-increment: page;
-    @bottom-center {
-      content: counter(page);
+    @page {
+        size: letter portrait;
+        margin: 12mm;
+        counter-increment: page;
+        @bottom-center {
+            content: counter(page);
+        }
     }
-  }
 
-  .print-only {
-    display: block;
-  }
+    .print-only {
+        display: block;
+    }
+    
 
-  .contact-block {
-    margin-top: 0;
-    text-align: center;
-  }
+    .contact-block {
+        margin-top: 0;
+        text-align: center;
+    }
 
-  header {
-    margin-bottom: 1em;
-  }
+    header {
+        margin-bottom: 0.5em;
+    }
 
-  header h1.title {
-    display: none;
-  }
+    header h1.title {
+        display: none;
+    }
 
-  header .author {
-    font-size: 1.5em;
-    font-weight: 900;
-    color: black;
-    text-align: center;
-    margin-bottom: 0;
-    text-transform: capitalize;
-  }
+    header .author {
+        font-size: 1.5em;
+        font-weight: 900;
+        color: black;
+        text-align: center;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
 
-  /* Company names */
-  h3 + p {
-    margin-top: 0;
-    margin-bottom: 0.2em;
-  }
+    /* Company names */
+    h3 + p {
+        margin-top: 0;
+        margin-bottom: 0.1em;
+        font-size: 11pt;
+    }
 
-  /* List items in print */
-  ul li {
-    font-size: 10pt;
-  }
+    /* List items in print */
+    ul li, p {
+        font-size: 10pt;
+    }
 
-  /* Paragraph text in print */
-  p {
-    font-size: 10pt;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-  }
-
-  /* Remove underlines from links in print */
-  a {
-    text-decoration: none;
-  }
+    /* Remove underlines from links in print */
+    a {
+        text-decoration: none;
+    }
 }
 
 /* Contact info columns */
 .columns {
-  margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 /* Horizontal line */
 hr {
-  margin: 0.5em 0;
+    margin: 0.3em 0;
 }
+

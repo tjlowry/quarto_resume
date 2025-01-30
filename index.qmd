@@ -5,10 +5,10 @@ format:
     toc: false
   pdf:
     pdf-engine: weasyprint
-    margin-top: 0.5in
-    margin-bottom: 0.5in
-    margin-left: 0.75in
-    margin-right: 0.75in
+    margin-top: 0.25in
+    margin-bottom: 0.25in
+    margin-left: 0.5in
+    margin-right: 0.5in
 css: cv.css
 execute:
   echo: false
@@ -79,7 +79,7 @@ Rexburg, ID
 
 **Competent:**
 - HTML, CSS, JavaScript, PHP, PySpark, C#
-- APIs, Data Pipelines, Database Managemet
+- APIs, Data Pipelines, Database Managemet, PySpark, 
 - Excel, VBA, Adobe Suite
 
 ## Work Experience
@@ -96,9 +96,9 @@ San Antonio, TX
 ***BYU-Idaho*** [April 2024 – Present]{.cvdate}  
 Rexburg, ID
 
-- Served as a teaching assistant for "Intro to Programming," "Data Wrangling and Visualization," "Data Science Programing," and "Math for the Real World"
+- Served as a teaching assistant and tutor for "Intro to Programming," "Math for the Real World," "Data Wrangling and Visualization," "Data Science Programing," and "Biostatistics"
 - Led group and one-on-one tutoring sessions focused on Python, R, Excel, and arithmetic
-- Provided general data science support at the Data Science Tutoring Lab, assisting students across various data science courses with Python, R, and other coursework-related questions
+- Provided general data science support at the Data Science Tutoring Lab, assisting students across various data science and mathmatics courses with Python, R, and other coursework-related questions
 
 ### Team Lead/Developer
 ***BYU-Idaho McKay Maclab*** [Jan 2023 – Present]{.cvdate}  
